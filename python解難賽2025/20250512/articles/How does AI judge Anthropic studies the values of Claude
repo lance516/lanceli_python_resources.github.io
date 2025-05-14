@@ -1,0 +1,54 @@
+AI models like Anthropic Claude are increasingly asked not just for factual recall, but for guidance involving complex human values. Whether it’s parenting advice, workplace conflict resolution, or help drafting an apology, the AI’s response inherently reflects a set of underlying principles. But how can we truly understand which values an AI expresses when interacting with millions of users?
+
+In a research paper, the Societal Impacts team at Anthropic details a privacy-preserving methodology designed to observe and categorise the values Claude exhibits “in the wild.” This offers a glimpse into how AI alignment efforts translate into real-world behaviour.
+
+The core challenge lies in the nature of modern AI. These aren’t simple programs following rigid rules; their decision-making processes are often opaque.
+
+Anthropic says it explicitly aims to instil certain principles in Claude, striving to make it “helpful, honest, and harmless.” This is achieved through techniques like Constitutional AI and character training, where preferred behaviours are defined and reinforced.
+
+However, the company acknowledges the uncertainty. “As with any aspect of AI training, we can’t be certain that the model will stick to our preferred values,” the research states.
+
+“What we need is a way of rigorously observing the values of an AI model as it responds to users ‘in the wild’ […] How rigidly does it stick to the values? How much are the values it expresses influenced by the particular context of the conversation? Did all our training actually work?”
+
+Analysing Anthropic Claude to observe AI values at scale
+To answer these questions, Anthropic developed a sophisticated system that analyses anonymised user conversations. This system removes personally identifiable information before using language models to summarise interactions and extract the values being expressed by Claude. The process allows researchers to build a high-level taxonomy of these values without compromising user privacy.
+
+The study analysed a substantial dataset: 700,000 anonymised conversations from Claude.ai Free and Pro users over one week in February 2025, predominantly involving the Claude 3.5 Sonnet model. After filtering out purely factual or non-value-laden exchanges, 308,210 conversations (approximately 44% of the total) remained for in-depth value analysis.
+
+The analysis revealed a hierarchical structure of values expressed by Claude. Five high-level categories emerged, ordered by prevalence:
+
+Practical values: Emphasising efficiency, usefulness, and goal achievement.
+Epistemic values: Relating to knowledge, truth, accuracy, and intellectual honesty.
+Social values: Concerning interpersonal interactions, community, fairness, and collaboration.
+Protective values: Focusing on safety, security, well-being, and harm avoidance.
+Personal values: Centred on individual growth, autonomy, authenticity, and self-reflection.
+These top-level categories branched into more specific subcategories like “professional and technical excellence” or “critical thinking.” At the most granular level, frequently observed values included “professionalism,” “clarity,” and “transparency” – fitting for an AI assistant.
+
+Critically, the research suggests Anthropic’s alignment efforts are broadly successful. The expressed values often map well onto the “helpful, honest, and harmless” objectives. For instance, “user enablement” aligns with helpfulness, “epistemic humility” with honesty, and values like “patient wellbeing” (when relevant) with harmlessness.
+
+Nuance, context, and cautionary signs
+However, the picture isn’t uniformly positive. The analysis identified rare instances where Claude expressed values starkly opposed to its training, such as “dominance” and “amorality.”
+
+Anthropic suggests a likely cause: “The most likely explanation is that the conversations that were included in these clusters were from jailbreaks, where users have used special techniques to bypass the usual guardrails that govern the model’s behavior.”
+
+Far from being solely a concern, this finding highlights a potential benefit: the value-observation method could serve as an early warning system for detecting attempts to misuse the AI.
+
+The study also confirmed that, much like humans, Claude adapts its value expression based on the situation.
+
+When users sought advice on romantic relationships, values like “healthy boundaries” and “mutual respect” were disproportionately emphasised. When asked to analyse controversial history, “historical accuracy” came strongly to the fore. This demonstrates a level of contextual sophistication beyond what static, pre-deployment tests might reveal.
+
+Furthermore, Claude’s interaction with user-expressed values proved multifaceted:
+
+Mirroring/strong support (28.2%): Claude often reflects or strongly endorses the values presented by the user (e.g., mirroring “authenticity”). While potentially fostering empathy, the researchers caution it could sometimes verge on sycophancy.
+Reframing (6.6%): In some cases, especially when providing psychological or interpersonal advice, Claude acknowledges the user’s values but introduces alternative perspectives.
+Strong resistance (3.0%): Occasionally, Claude actively resists user values. This typically occurs when users request unethical content or express harmful viewpoints (like moral nihilism). Anthropic posits these moments of resistance might reveal Claude’s “deepest, most immovable values,” akin to a person taking a stand under pressure.
+Limitations and future directions
+Anthropic is candid about the method’s limitations. Defining and categorising “values” is inherently complex and potentially subjective. Using Claude itself to power the categorisation might introduce bias towards its own operational principles.
+
+This method is designed for monitoring AI behaviour post-deployment, requiring substantial real-world data and cannot replace pre-deployment evaluations. However, this is also a strength, enabling the detection of issues – including sophisticated jailbreaks – that only manifest during live interactions.
+
+The research concludes that understanding the values AI models express is fundamental to the goal of AI alignment.
+
+“AI models will inevitably have to make value judgments,” the paper states. “If we want those judgments to be congruent with our own values […] then we need to have ways of testing which values a model expresses in the real world.”
+
+This work provides a powerful, data-driven approach to achieving that understanding. Anthropic has also released an open dataset derived from the study, allowing other researchers to further explore AI values in practice. This transparency marks a vital step in collectively navigating the ethical landscape of sophisticated AI.

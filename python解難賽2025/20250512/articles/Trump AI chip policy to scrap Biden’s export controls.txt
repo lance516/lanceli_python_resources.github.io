@@ -1,0 +1,69 @@
+The Trump AI chip policy reversal announced this week signals a shift in how advanced computing technologies will flow in global markets, as the administration prepares to dismantle Biden’s complex three-tier regulatory framework.
+
+Set to take effect on May 15, 2025, the Biden administration’s Framework for Artificial Intelligence Diffusion would have created a stratified global technology landscape with significant implications for international trade, innovation, and geopolitical relationships.
+
+According to a Commerce Department on Wednesday, the Trump administration views the existing approach as fundamentally flawed. “The Biden AI rule is overly complex, overly bureaucratic, and would stymie American innovation,” a Commerce Department spokeswoman told Reuters.
+
+“We will be replacing it with a much simpler rule that freees American innovation and ensures American AI dominance,” they said. The policy shift comes months after the Biden administration finalised an export control framework during its final week in office.
+
+That framework represented the culmination of a four-year effort to restrict China’s access to cutting-edge chips while maintaining US leadership in artificial intelligence technology. The decision to rescind the rule reflects the Trump administration’s different approach to balancing national security concerns with commercial interests.
+
+<
+
+Understanding the three-tier system
+The soon-to-be-eliminated rule had established a hierarchical structure for global technology access. In the first tier, 17 countries plus Taiwan would have enjoyed unlimited access to advanced AI chips.
+
+A second tier of approximately 120 countries would have operated under strict numerical caps limiting their imports. The third and final tier – including China, Russia, Iran, and North Korea – would have been completely blocked from accessing these technologies.
+
+The structured approach aimed to prevent advanced technologies from reaching countries of concern through intermediaries while still allowing access for allies and neutral nations. However, critics argued the complexity of the system would create significant compliance burdens and push international partners toward alternative suppliers.
+
+<
+
+The new approach taking shape
+Instead of the tiered system, sources cited by Reuters indicate the Trump administration is considering implementing a global licensing regime supported by inter-governmental agreements. The approach would potentially offer more flexibility and maintain controls over sensitive technology.
+
+The timing of the announcement appears strategically significant. Bloomberg reported the changes are developing as President Trump prepares for a trip to the Middle East, where countries including Saudi Arabia and the United Arab Emirates have expressed frustration over existing restrictions on their acquisition of AI chips.
+
+The Commerce Department’s decision could be announced as soon as Thursday, according to a source familiar with the matter.
+
+<
+
+Market reaction and industry impact
+News of the policy reversal has already sent ripples through financial markets. Shares of Nvidia, the dominant manufacturer of chips used for training AI models, ended 3% higher on May 7 following the announcement, though they dipped 0.7% in after-hours trading, according to Reuters.
+
+The company has consistently opposed the growing number of US restrictions. Nvidia CEO Jensen Huang argues that American companies should be able to sell into China, which, he predicts, will become a $50 billion market for AI chips in the next couple of years.
+
+However, it’s important to note that the Trump AI chip policy shift does not signal a complete abandonment of export controls. The administration has already demonstrated its willingness to take strong action against China, specifically, by banning Nvidia from selling its H20 chip there – a move that cost the company $5.5 billion in writedowns, according to Bloomberg.
+
+<
+
+Global winners and losers
+The policy reversal creates a complex map of potential winners and losers in the global technology landscape. Countries like India and Malaysia, which hadn’t faced chip restrictions before the Biden rule was unveiled in January, will see temporary relief. In Malaysia’s case, this could particularly benefit Oracle Corporation, which has plans for a massive data centre expansion that would have exceeded limits established by rules governing AI hardware distribution.
+
+Middle Eastern nations also stand to gain. The UAE and Saudi Arabia, which have faced chip export controls since 2023, may now be able to negotiate more favourable terms.
+
+Trump has expressed interest in easing restrictions for the UAE specifically and could announce the beginning of work on a government-to-government AI chip agreement during his upcoming visit to the region from May 13 to 16.
+
+The UAE’s aggressive pursuit of such an agreement, backed by its pledge to invest up to $1.4 trillion in US technology and infrastructure over the next decade, exemplifies how high-stakes these negotiations have become for countries seeking to establish themselves as AI powerhouses.
+
+<
+
+Uncertainty ahead
+According to Axios, the Trump administration is currently developing a new control scheme, which could emerge as either a new rule or an executive order. The transition period creates significant uncertainty for companies like Nvidia regarding the regulatory environment they’ll face in the coming months.
+
+While the new framework takes shape, the administration has indicated it will continue enforcing existing chip export controls. One potential element of the new approach might involve imposing controls specifically on countries that have diverted chips to China, including Malaysia and Thailand, according to a source familiar with the matter.
+
+Industry stakeholders remain divided on the issue. While chip manufacturers have lobbied aggressively against strict export controls, some AI companies, including Anthropic, have advocated for maintaining protections that safeguard US intellectual property and technological advantages.
+
+<
+
+Balancing competing priorities
+The Biden administration’s export controls were designed to limit access to chips needed for cutting-edge AI development, with a particular focus on preventing Chinese firms from finding indirect routes to technology that existing export controls prevented them from importing directly.
+
+Creating a balanced approach that addresses national security concerns while promoting US commercial interests presents significant challenges. Establishing agreements with a wide range of countries eager to purchase advanced AI chips would require navigating complex diplomatic relationships and potentially creating dozens of separate policy frameworks.
+
+The Commerce Department has not provided a specific timeline for when any new rules are to be finalised or implemented, only indicating that debate continues on the optimal approach forward.
+
+The shift in Trump AI chip policy reflects the administration’s broader emphasis on American competitiveness and innovation while still maintaining control over technologies with national security implications.
+
+As officials work to craft a replacement framework, the global AI chip market remains in flux, with profound implications for technological development, international relations, and corporate strategies in the evolving artificial intelligence landscape.

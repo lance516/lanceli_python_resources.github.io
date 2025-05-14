@@ -1,0 +1,10 @@
+https://openrouter.ai/docs/api-reference/chat-completion
+
+https://openrouter.ai/docs/features/images-and-pdfs
+
+google/gemini-2.0-flash-001
+
+
+example OpenRouter Key
+
+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

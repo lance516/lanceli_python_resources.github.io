@@ -1,0 +1,684 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>XML資料格式</title>
+</head>
+
+<body>
+
+<h1 align="center"><center><a name="header"></a><font color="#0000FF">XML資料格式 </font></center></h1>
+[<a href="#XML">XML</a>] [<a href="#XSD">XSD</a>][<a href="#Type">Type 
+欄位之定義</a>][<a href="#Status">Status 欄位之定義</a>][<a href="#WeatherStatus">4 
+日天氣預報中 &lt;WeatherStatus&gt; 之定義</a>]
+
+<hr size="3">
+<br>
+<table border="0" width="710" height="894">
+  <tr>
+    <td height="26" width="210">
+      <p align="left">&nbsp;<b><font size="+2"><a name="XML">XML</a> 檔</font></b></p>
+    </td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" width="210"><b><font size="+2">服務</font></b></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_telephoneinquiry.xml">1311電話</a></td>
+    <td height="18" width="249"><a href="p_telephoneinquiry.xml">1311 Telefone</a></td>
+    <td height="18" width="237"><a href="e_telephoneinquiry.xml">1311 TEL</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_faxservice.xml">1313傳真</a></td>
+    <td height="18" width="249"><a href="p_faxservice.xml">1313 Fax</a></td>
+    <td height="18" width="237"><a href="e_faxservice.xml">1313 FAX</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_cellbroadcast.xml">天氣訊息廣播服務</a></td>
+    <td height="18" width="249"><a href="p_cellbroadcast.xml">Servi&ccedil;o de 
+      Informa&ccedil;&atilde;o Meteorológico por &quot;Cell Broadcast&quot;</a></td>
+    <td height="18" width="237"><a href="e_cellbroadcast.xml">Cell Broadcast 
+      Weather Information Service</a></td>
+  </tr>
+  <tr>
+    <td height="18"><a href="c_mobile.xml">流動網上天氣服務</a></td>
+    <td height="18"><a href="p_mobile.xml">Servico WebTempo Movel</a></td>
+    <td height="18"><a href="e_mobile.xml">Mobile WebWeather Service</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_contact.xml">聯絡氣象局</a></td>
+    <td height="18" width="249"><a href="p_contact.xml">Contacto</a></td>
+    <td height="18" width="237"><a href="e_contact.xml">Contact us</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"></td>
+    <td height="18" width="249"></td>
+    <td height="18" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" width="210"><b><font size="+2">最新天氣</font></b></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_actual_brief.xml">實時天氣簡報</a></td>
+    <td height="18" width="249"><a href="p_actual_brief.xml">Tempo Presente</a> 
+      (Brief)</td>
+    <td height="18" width="237"><a href="e_actual_brief.xml">Actual Weather 
+      (Brief)</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_actualweather.xml">實時天氣</a></td>
+    <td height="18" width="249"><a href="p_actualweather.xml">Tempo Presente</a></td>
+    <td height="18" width="237"><a href="e_actualweather.xml">Actual Weather</a></td>
+  </tr>
+  <tr>
+    <td height="21" width="210"><a href="c_forecast.xml">天氣預報</a></td>
+    <td height="21" width="249"><a href="p_forecast.xml">Previs&atilde;o do 
+      Tempo</a></td>
+    <td height="21" width="237"><a href="e_forecast.xml">Weather Forecast</a></td>
+  </tr>
+  <tr>
+    <td height="21" width="210"><a href="c_4daysforecast.xml">四日天氣預報</a></td>
+    <td height="21" width="249"><a href="p_4daysforecast.xml">Previs&atilde;o 4 
+      dias</a></td>
+    <td height="21" width="237"><a href="e_4daysforecast.xml">4 days Weather 
+      Forecast</a></td>
+  </tr>
+  <tr>
+    <td height="21" width="210"><a href="c_7daysforecast.xml">七日天氣預報</a></td>
+    <td height="21" width="249"><a href="p_7daysforecast.xml">Previs&atilde;o 7 
+      dias</a></td>
+    <td height="21" width="237"><a href="e_7daysforecast.xml">7 days Weather Forecast</a></td>
+  </tr>
+  <tr>
+    <td height="21" width="210"><a href="c_coastal_forecast.xml">沿岸天氣預報</a></td>
+    <td height="21" width="249"><a href="p_coastal_forecast.xml">Previs&atilde;o 
+      na zona costeria</a></td>
+    <td height="21" width="237"><a href="e_coastal_forecast.xml">Coastal Forecast Report</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"></td>
+    <td height="18" width="249"></td>
+    <td height="18" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" colspan="2"><b><font size="+2">城市天氣預報</font></b></td>
+    <td height="26" width="237"></td>
+    
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_china.xml">中國各大城市天氣</a></td>
+    <td height="18" width="249"><a href="p_china.xml">Tempo nas cidades da China</a></td>
+    <td height="18" width="237"><a href="e_china.xml">Chinese City Weather</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_gdcity.xml">廣東省縣市天氣</a></td>
+    <td height="18" width="249"><a href="p_gdcity.xml">Tempo nas cidades da 
+      Guangdong</a></td>
+    <td height="18" width="237"><a href="e_gdcity.xml">Guangdong major Cities</a></td>
+  </tr>
+  <tr>
+    <td height="133" width="210"><strong>世界城市天氣 -</strong><br>
+      <blockquote>
+        <a href="c_asia.xml">亞洲</a> ,<a href="c_europe.xml">歐洲</a><br>
+        ,<a href="c_africa.xml">非洲</a>,<a href="c_australia.xml">澳洲</a>,<br>
+        <a href="c_namerica.xml">北美洲</a>,<a href="c_samerica.xml">南美洲</a>
+      </blockquote>
+    </td>
+    <td height="133" width="249"><strong>Tempo no mudo -</strong><br>
+      <blockquote>
+        <a href="p_asia.xml">Ásia</a>,<a href="p_europe.xml"> Europa</a>,<br>
+        <a href="p_africa.xml">África</a>, <a href="p_australia.xml">Austrália</a><a>,<br>
+        </a><a href="p_namerica.xml">América do Norte</a>,<a href="p_samerica.xml">América 
+        do Sul</a>
+      </blockquote>
+    </td>
+    <td height="133" width="237"><strong>World Weather Information -</strong><br>
+      <blockquote>
+        <a href="e_asia.xml">Aisa</a>, <a href="e_europe.xml">Europe</a>,<br>
+        <a href="e_africa.xml">Africa</a>,<a href="e_australia.xml">Australia</a>,<br>
+        <a href="e_namerica.xml">North America</a>, <a href="e_samerica.xml">South 
+        America</a>
+      </blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td height="21" width="210">&nbsp;</td>
+    <td height="21" width="249"></td>
+    <td height="21" width="237"></td>
+  </tr>
+  <tr>
+    <td height="21" width="210">&nbsp;</td>
+    <td height="21" width="249"></td>
+    <td height="21" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" width="210"><b><font size="+2">惡劣天氣</font></b></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_typhoon.xml">熱帶氣旋警告</a></td>
+    <td height="18" width="249"><a href="p_typhoon.xml">Tempestade Tropical</a></td>
+    <td height="18" width="237"><a href="e_typhoon.xml">Tropical Cyclone</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_rainstorm.xml">暴雨警告</a></td>
+    <td height="18" width="249"><a href="p_rainstorm.xml">Chuva Intensa</a></td>
+    <td height="18" width="237"><a href="e_rainstorm.xml">Rainstorm</a></td>
+  </tr>
+  <tr>
+    <td height="21" width="210"><a href="c_monsoon.xml">強烈季侯風警告</a>　</td>
+    <td height="21" width="249"><a href="p_monsoon.xml">Ventos Fortes de Mon&ccedil;&atilde;o</a></td>
+    <td height="21" width="237"><a href="e_monsoon.xml">Monsoon</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_thunderstorm.xml">雷暴警告</a></td>
+    <td height="18" width="249"><a href="p_thunderstorm.xml">Trovoada</a></td>
+    <td height="18" width="237"><a href="e_thunderstorm.xml">Thunderstorm</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_stormsurge.xml">風暴潮</a></td>
+    <td height="18" width="249"><a href="p_stormsurge.xml">Stormsurge</a></td>
+    <td height="18" width="237"><a href="e_stormsurge.xml">Stormsurge</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210">　</td>
+    <td height="18" width="249"></td>
+    <td height="18" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" width="210"><font size="+2"><b>空氣質量</b></font></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <!--
+  <tr>
+    <td height="18" width="210"><a href="c_api.xml">指數日報</a></td>
+    <td height="18" width="249"><a href="p_api.xml">IQA</a></td>
+    <td height="18" width="237"><a href="e_api.xml">Air Quality Index</a></td>
+  </tr>
+  -->
+  <tr>
+    <td height="21" width="210"><a href="c_foreiqa.xml">指數預報</a></td>
+    <td height="21" width="249"><a href="p_foreiqa.xml">Previs&atilde;o do Índice 
+      da qualidade do ar</a></td>
+    <td height="21" width="237"><a href="e_foreiqa.xml">Air Quality Index 
+      Forecast</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210">　</td>
+    <td height="18" width="249"></td>
+    <td height="18" width="237"></td>
+  </tr>
+  <tr>
+    <td height="26" width="210"><font size="+2"><b>紫外線</b></font></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+   <tr>
+    <td height="18"><a href="c_actualUVI.xml">即時紫外線值</a></td>
+    <td height="18"><a href="p_actualUVI.xml">Índice da UV</a></td>
+    <td height="18"><a href="e_actualUVI.xml">Actual UVB Index</a></td>
+  </tr>
+   <tr>
+    <td height="18"><a href="c_forecastUVI.xml">紫外線預報</a></td>
+    <td height="18"><a href="p_forecastUVI.xml">Previs&atilde;o do Índice da UV</a></td>
+    <td height="18"><a href="e_forecastUVI.xml">Forecast UVB Index</a></td>
+  </tr>
+  <tr>
+    <td height="18"><a href="c_7daysUV.xml">過去7日之紫外線值</a></td>
+    <td height="18"><a href="p_7daysUV.xml">7 Dias UV-Index</a></td>
+    <td height="18"><a href="e_7daysUV.xml">Last 7 days UVB Index</a></td>
+  </tr>
+  <tr>
+    <td height="18">　</td>
+    <td height="18"></td>
+    <td height="18"></td>
+  </tr>
+  <!--
+    <tr>
+    <td height="26" width="210"><font size="+2"><b>溫度指數</b></font></td>
+    <td height="26" width="249"></td>
+    <td height="26" width="237"></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_actual_temperatureindex.xml">即時溫度指數</a></td>
+    <td height="18" width="249"><a href="p_actual_temperatureindex.xml">&#205;ndice da Temperatura</a></td>
+    <td height="18" width="237"><a href="e_actual_temperatureindex.xml">Temperature Index</a></td>
+  </tr>
+  <tr>
+    <td height="18" width="210"><a href="c_TemperatureIndexForecast.xml">預測溫度指數</a></td>
+    <td height="18" width="249"><a href="p_TemperatureIndexForecast.xml">Previs&#227;o no &#205ndice da Temperatura</a></td>
+    <td height="18" width="237"><a href="e_TemperatureIndexForecast.xml">Temperature Index Forecast</a></td>
+  </tr>
+  -->
+</table>
+[<a href="#header">回目錄</a>]<br>
+<hr>
+<table border="0" width="28%">
+  <tr>
+    <td width="50%">
+      <p align="left">&nbsp;<b><font size="+3"><u><a name="XSD">XSD</a> 檔</font></u></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><b><font size="+2">服務</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="services.xsd">服務</a></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="contact.xsd">聯絡</a></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+  <tr>
+    <td width="100%"><b><font size="+2">最新天氣</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="actualweather.xsd">實時天氣</a></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="weatherforecast.xsd">天氣預報</a></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="4daysweatherforecast.xsd">四日天氣預報</a></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="coastalforecast.xsd">沿岸天氣預報</a></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+  <tr>
+    <td width="100%"></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="CityForecast.xsd"><b><font size="+2">城市天氣</font></b></a></td>
+  </tr>
+  <tr>
+    <td width="100%">　</td>
+  </tr>
+  <tr>
+    <td width="100%"><b><font size="+2">惡劣天氣</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="Typhoon.xsd">熱帶氣旋警告</a>　</td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="Rainstorm.xsd">暴雨警告</a>　</td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="Monsoon.xsd">強烈季侯風警告</a></td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="Thunderstorm.xsd">雷暴警告</a>　</td>
+  </tr>
+  <tr>
+    <td width="100%"><a href="Stormsurge.xsd">風暴潮</a>　</td>
+  </tr>
+  <tr>
+    <td width="100%">　</td>
+  </tr>
+  <tr>
+    <td width="100%"><font size="+2"><b>空氣質量</b></font></td>
+  </tr>
+  <!--
+  <tr>
+    <td width="100%"><a href="IQA.xsd">指數日報</a></td>
+  </tr>
+  -->
+  <tr>
+    <td width="100%"><a href="ForecastIQA.xsd">指數預報</a></td>
+  </tr>
+   
+</table>
+[<a href="#header">回目錄</a>]
+<hr>
+<table border="0" width="58%">
+  <tr>
+    <td width="50%">
+      <p align="left"><b>&nbsp;<font size="+2"><a name="Type">Type </a></font><a name="Type"><font size="+2">欄位之定義</font></a></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">1 = 預測最高值</td>
+  </tr>
+  <tr>
+    <td width="100%">2 = 預測最低值</td>
+  </tr>
+  <tr>
+    <td width="100%">3 = 即時錄得之觀察值</td>
+  </tr>
+  <tr>
+    <td width="100%">4 = 1 小時前至即時的累積值</td>
+  </tr>
+  <tr>
+    <td width="100%">5 = 由 當日之 00:01 至即時的累積值</td>
+  </tr>
+  <tr>
+    <td width="100%">6 = 由 昨日中午 12:01 至當日中午 12:00 
+      的統計值</td>
+  </tr>
+  <tr>
+    <td width="100%">7 = 預測值</td>
+  </tr>
+  <tr>
+    <td width="100%">8 = 當日錄得之最高值</td>
+  </tr>
+  <tr>
+    <td width="100%">9 = 當日錄得之最低值</td>
+  </tr>
+   <tr>
+    <td width="100%">10 = 當日早上 07:00 至當日下午 17:00錄得之最高值</td>
+  </tr>
+   <tr>
+    <td width="100%">11 =  當日早上 07:00 至當日下午 17:00錄得之平均值</td>
+  </tr>
+  <tr>
+    <td width="100%">12 =  過去 15 分鐘之平均值</td>
+  </tr>
+  <tr>
+    <td width="100%">13 =  2 小時前至即時的累積值</td>
+  </tr>
+</table>
+[<a href="#header">回目錄</a>]<br>
+<hr>
+<table border="0" width="58%">
+  <tr>
+    <td width="50%">
+      <p align="left"><b><font size="+2">&nbsp;<a name="Status">Status 
+      欄位之定義</a></font></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">0 =&nbsp;沒有警告</td>
+  </tr>
+  <tr>
+    <td width="100%">1 =&nbsp;現正懸掛</td>
+  </tr>
+  <tr>
+    <td width="100%">2 =&nbsp;除下</td>
+  </tr>
+  <tr>
+    <td width="100%">3 =&nbsp;沒有警告下的預報</td>
+  </tr>
+</table>
+[<a href="#header">回目錄</a>]
+<hr>
+<table border="0" width="58%">
+  <tr>
+    <td width="50%">
+      <p align="left"><b><font size="+2">&nbsp;<a name="Inforce">Inforce 
+      欄位之定義</a></font></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">警告級別</td>
+  </tr>
+</table>
+[<a href="#header">回目錄</a>]
+<hr>
+<p><b><font size="+2"><a name="WeatherStatus">4 日天氣預報中 &lt;WeatherStatus&gt; 
+之定義</a></font></b><br>
+<table border="2">
+  <tr>
+    <td align="center"><b>Code</b></td>
+    <td><b>chi_desc</b></td>
+    <td><b>por_desc</b></td>
+    <td><b>eng_desc</b></td>
+    <td><b>Usage</b></td>
+  </tr>
+  <tr>
+    <td align="center">01</td>
+    <td>天晴</td>
+    <td>Pouco nublado</td>
+    <td>Fine</td>
+    <td>Day</td>
+  </tr>
+  <tr>
+    <td align="center">a1</td>
+    <td>天晴</td>
+    <td>Pouco nublado</td>
+    <td>Fine</td>
+    <td>Night</td>
+  </tr>
+  <tr>
+    <td align="center">02</td>
+    <td>間晴</td>
+    <td>Muito nublado com abertas</td>
+    <td>Sunny periods</td>
+    <td>Day</td>
+  </tr>
+  <tr>
+    <td align="center">a2</td>
+    <td>間晴</td>
+    <td>Muito nublado com abertas</td>
+    <td>Sunny periods</td>
+    <td>Night</td>
+  </tr>
+  <tr>
+    <td align="center">03</td>
+    <td>多雲</td>
+    <td>Muito nublado</td>
+    <td>Cloudy</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">04</td>
+    <td>密雲</td>
+    <td>Encoberto</td>
+    <td>Overcast</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">05</td>
+    <td>浮塵</td>
+    <td>Poeira</td>
+    <td>Dust</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">06</td>
+    <td>霧</td>
+    <td>Nevoeiro</td>
+    <td>Fog</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">07</td>
+    <td>煙霞</td>
+    <td>Bruma seca</td>
+    <td>Haze</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">08</td>
+    <td>薄霧</td>
+    <td>Neblina</td>
+    <td>Mist</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">09</td>
+    <td>煙幕</td>
+    <td>Fumo</td>
+    <td>Smoke</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">10</td>
+    <td>毛毛雨</td>
+    <td>Chuvisco</td>
+    <td>Drizzle</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">11</td>
+    <td>冰雹</td>
+    <td>Saraiva</td>
+    <td>Hail</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td  align="center">12</td>
+    <td>雨</td>
+    <td>Chuva</td>
+    <td>Rain</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">13</td>
+    <td>大雨</td>
+    <td>Chuva intensa</td>
+    <td>Heavy rain</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">14</td>
+    <td>雪</td>
+    <td>Neve</td>
+    <td>Snow</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">15</td>
+    <td>大雪</td>
+    <td>Neve intensa</td>
+    <td>Heavy snow</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">16</td>
+    <td>驟雨</td>
+    <td>Aguaceiros</td>
+    <td>Showers</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">17</td>
+    <td>大驟雨</td>
+    <td>Aguaceiros fortes</td>
+    <td>Heavy showers</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">18</td>
+    <td>雷雨</td>
+    <td>Aguaceiros e trovoadas</td>
+    <td>Thundershowers</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">19</td>
+    <td>塵暴</td>
+    <td>Tempestade de poeira</td>
+    <td>Duststorm</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">20</td>
+    <td>大塵暴</td>
+    <td>Tempestade forte de poeira</td>
+    <td>Severe duststorm</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">21</td>
+    <td>乾燥</td>
+    <td>Seca</td>
+    <td>Dry</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">22</td>
+    <td>沙暴</td>
+    <td>Tempestade de areia</td>
+    <td>Sandstorm</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">23</td>
+    <td>大沙暴</td>
+    <td>Tempestade forte de areia</td>
+    <td>Severe sandstorm</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">24</td>
+    <td>狂風雷暴</td>
+    <td>Vento intenso com trovoada</td>
+    <td>Squall thunderstorm</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">25</td>
+    <td>雷暴</td>
+    <td>Trovoadas</td>
+    <td>Thunderstorms</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">26</td>
+    <td>潮濕</td>
+    <td>Hmido</td>
+    <td>Wet</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">27</td>
+    <td>大風</td>
+    <td>Ventos fortes</td>
+    <td>Windy</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">28</td>
+    <td>雨</td>
+    <td>Chuva</td>
+    <td>Rain</td>
+    <td>Day</td>
+  </tr>
+  <tr>
+    <td align="center">c8</td>
+    <td>雨</td>
+    <td>Chuva</td>
+    <td>Rain</td>
+    <td>Night</td>
+  </tr>
+  <tr>
+    <td align="center">29</td>
+    <td>驟雨</td>
+    <td>Aguaceiros</td>
+    <td>Showers</td>
+    <td>Day</td>
+  </tr>
+  <tr>
+    <td align="center">c9</td>
+    <td>驟雨</td>
+    <td>Aguaceiros</td>
+    <td>Showers</td>
+    <td>Night</td>
+  </tr>
+  <tr>
+    <td align="center">30</td>
+    <td>水龍捲</td>
+    <td>Tromba maritima</td>
+    <td>Funnel</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+[<a href="#header">回目錄</a>]
+<p>　</p>
+
+</body>
+
+</html>
+
